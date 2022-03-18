@@ -1,7 +1,5 @@
 # MVC Blog App
 
-# E-commerce Back End App
-
 ![License](https://img.shields.io/badge/License-GNU-brightgreen)
 
 ## Description
@@ -10,11 +8,15 @@ This app allows a user to utilize sequelize to create a fully-seeded database th
 
 ## GitHub Site
 
-[Click to go to GitHub site!](https://github.com/joshlyons225/sequelize-furry-banana)
+[Click to go to GitHub site!](https://github.com/joshlyons225/mvc-fishtail-incense)
 
 ## Installation
 
-Clone the repo; run npm init; npm i mysql2, npm i express, npm i sequelize, npm i dotenv.
+Clone the repo; run npm init; npm i mysql2, npm i express, npm i sequelize, npm i dotenv, npm i express-handlebars, npm i bcrypt, npm i express-session, npm i connect-session-sequelize. Add .env file file to project root and add the following data:
+
+DB_NAME='mvc_blog'
+DB_USER='root'
+DB_PW=''
 
 ## Usage
 
@@ -22,7 +24,7 @@ This app allows a user to create an interactive database through sequelize that 
 
 ## Technologies
 
-This app was created using Node, NPM, Express, Mysql2, Sequelize, Dotenv, Insomnia, and JavaScript.
+This app was created using Node, NPM, Express, Mysql2, Sequelize, Dotenv, Insomnia, Handlebars, bcrypt, CSS, and JavaScript.
 
 ## Contributions
 
