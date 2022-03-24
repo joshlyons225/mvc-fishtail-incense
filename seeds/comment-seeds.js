@@ -24,7 +24,7 @@ const commentData = [
   {
     comment_text: "No one likes you anyway, Gretchen",
     user_id: 4,
-    post_id: 6,
+    post_id: 5,
   },
 ];
 
