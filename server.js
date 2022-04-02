@@ -29,7 +29,6 @@ const sess = {
 };
 
 // set express rules
-app.use(routes);
 app.use(session(sess));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -38,6 +37,9 @@ app.use(express.static(path.join(__dirname, "public")));
 // set handlebar connection
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
+
+// set routes
+app.use(routes);
 
 // connect database with server via Sequelize
 sequelize.sync({ force: false }).then(() => {
