@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Because You Care</title>
-    <link rel="stylesheet" href="/public/css/style.css" />
-    <link rel="stylesheet" href="/public/css/login.css" />
-    <link rel="stylesheet" href="/public/css/single-post.css" />
-    <link rel="stylesheet" href="/public/css/dashboard.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/css/single-post.css" />
+    <link rel="stylesheet" href="/css/dashboard.css" />
   </head>
 
   <body>
@@ -18,10 +18,10 @@
         </h1>
         <nav>
           {{#if loggedIn}}
-            <a href="/public/js/dashboard.js">Dashboard</a>
+            <a href="/js/dashboard.js">Dashboard</a>
             <button id="logout" class="btn-no-style">Log Out</button>
           {{else}}
-            <a href="/public/js/login.js">Login</a>
+            <a href="/js/login.js">Login</a>
           {{/if}}
         </nav>
       </header>
@@ -34,7 +34,7 @@
     </div>
 
     {{#if loggedIn}}
-      <script src="/public/js/logout.js"></script>
+      <script src="/js/logout.js"></script>
     {{/if}}
   </body>
 
